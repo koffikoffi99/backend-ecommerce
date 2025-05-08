@@ -26,7 +26,10 @@ app.use(bodyParser.json());
 
 // ✅ CORS pour le frontend React
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: [
+        'http://localhost:3000',
+        'https://heroic-cascaron-d54afb.netlify.app'
+    ],
     credentials: true
 }));
 
