@@ -1,0 +1,44 @@
+# Dossiers générés par Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Fichiers d'environnement
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# Fichiers de logs (si tu en as)
+logs/
+*.log
+
+# Dossier contenant les packages distribuables (si tu en crées)
+dist/
+build/
+
+# Fichiers de configuration spécifiques à l'IDE (si tu utilises VS Code par exemple)
+.vscode/
+
+# Dossier contenant les fichiers de cache (si tu en utilises)
+cache/
+
+# Fichiers temporaires
+tmp/
+temp/
+*.tmp
+
+# Fichiers spécifiques au système d'exploitation (peuvent varier)
+.DS_Store
+Thumbs.db
+
+# Dépendances optionnelles ou spécifiques à l'environnement (à adapter)
+# par exemple, si tu utilises des bases de données locales en développement
+# data/
+
+# Autres fichiers ou dossiers que tu ne souhaites pas suivre
+# mon_fichier_secret.key
