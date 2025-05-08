@@ -28,7 +28,7 @@ app.use(bodyParser.json());
 app.use(cors({
     origin: [
         'http://localhost:3000',
-        'https://heroic-cascaron-d54afb.netlify.app'
+        'https://remarkable-entremet-c6f8e6.netlify.app'
     ],
     credentials: true
 }));
